@@ -10,7 +10,6 @@ const inputSenha = document.querySelector("#senha");
 })();
 
 btn.onclick = (e) =>{
-    e.preentDefault();
     let usuario = inputUsuario.value;
     let senha = inputSenha.value;
     if(!usuario && !senha){

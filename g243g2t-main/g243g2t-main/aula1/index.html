@@ -20,13 +20,18 @@
             <div class="barra_login">
                 <div class="form_base">
                     <form class="login">
-                        <input type="text" id="usuario" name="usuario" class="login_usuario">
+                        <div class="campoInput">
+                        <input type="text" id="usuario" name="usuario" class="login_usuario" required>
                         <label for="usuario">Usuário</label>
-                        <input type="password" id="senha" class="login_usuario">
+                    </div>
+                    <div class="classInput">
+                        <input type="password" id="senha" name="senha" class="login_usuario" required>
                         <label for="senha">Senha</label>
-                        <button type="btn">Logar</button>
-                    </form>
-                </div>
+                    </div>
+                    <div class="campoInput">
+                        <button type="submit">Logar</button>
+                    </div>
+                </form>
                 <div class="fom_esqueci_senha">
                     <a href="esqueci_senha.html" id="esqueci_senha">Esqueci a Senha</a>
                 </div>
